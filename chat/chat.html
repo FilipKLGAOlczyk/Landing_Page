@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="chat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+</head>
+<body>
+    <header>
+        <h1>Chat with Joey</h1>
+    </header>
+    <main>
+        <section class="chat-container">
+
+            <div id="welcome-screen">
+                <div class="joey-picture">
+                    <img src="https://img.icons8.com/?size=100&id=IkqmY3oN4Rti&format=png&color=000000"/>
+                </div>
+            </div>
+
+            <div class="welcome-message">
+                <p>Hello I'm Joey, I will help you find the perfect gift!</p>
+            </div>
+
+            <div id="chat-history" class="chat-history"></div>
+
+            <div class="chat-box" id="chat-box">
+                <input type="text" id="user-input" placeholder="Type your message here...">
+                <button class="button" id="send-btn">Send</button>
+            </div>
+
+
+            <div id="back-to-home">
+            <a class="button" href="../landing.html">Back to Home</a>
+        </div>
+
+
+        </section>
+    </main>
+</body>
+<script src="chat.js"></script>
+</html>

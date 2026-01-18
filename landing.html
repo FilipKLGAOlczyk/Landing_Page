@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header id="header">
+        <nav id='nav-bar' class="nav-bar">
+            
+            <h3>Joey The Gift Assistant</h3>
+            <img id="header-img" class="gift" src="https://img.icons8.com/?size=100&id=13140&format=png&color=000000" height="50" alt="gift icon"/>
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#presentation">Presentation</a></li>
+                <li><a class="nav-link" href="#plans">Plans</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            
+
+
+        </nav>
+    </header>
+    <main>
+    <section class="hero-section">
+        <h1>Say hello to our <highlight>AI Assistant</highlight> that helps you pick the perfect gift for your loved ones!</h1>
+        <p>Have You ever had a problem with finding the right gift?</p>
+        <p>We know you had. Everyone had.</p>
+        <h2>Meet <highlight class="color">Joey</highlight>, your personal gift assistant!</h2>
+
+        <div class="joey-picture">
+            <img src="https://img.icons8.com/?size=100&id=IkqmY3oN4Rti&format=png&color=000000"/>
+        </div>
+        </section>
+        <section class="cta-section">
+            <h2>Get Started</h2>
+            <p>Sign up now to start receiving personalized gift suggestions!</p>
+            <a class="cta-btn" href="#plans">Sign Up</a>
+            <a class="cta-btn" href="chat/chat.html">Try for free</a>
+        </section>
+
+    <section id="features" class="features-section"> 
+        <h2>Features</h2>
+        <div class='one-row'><img src="https://img.icons8.com/?size=100&id=CUgu9BzrQlrW&format=png&color=FAB005" width="50px" alt="gift-icon"/><h3>Gift Suggestions</h3>
+        <p>Get personalized gift suggestions based on your preferences and budget.</p></div>
+        <div class='one-row'><img src="https://img.icons8.com/?size=100&id=CUgu9BzrQlrW&format=png&color=FAB005" width="50px" alt="gift-icon"/><h3>Gift Reminders</h3>
+        <p>Never forget a special occasion with our gift reminder feature.</p></div>
+        <div class='one-row'><img src="https://img.icons8.com/?size=100&id=CUgu9BzrQlrW&format=png&color=FAB005" width="50px" alt="gift-icon"/><h3>Add all your loved ones</h3>
+        <p>Add all your loved ones with their interests and preferences to access your gift suggestions easily.</p></div>
+        <div class='one-row'><img src="https://img.icons8.com/?size=100&id=CUgu9BzrQlrW&format=png&color=FAB005" width="50px" alt="gift-icon"/><h3>Multi-Platform Support</h3>
+        <p>Access Joey from your desktop, tablet, or mobile device.</p>
+    </section>
+    <section id="presentation" class="presentation">
+        <h2>Watch our presentation</h2>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/gJouQTB4Be4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+    
+        <h2>Plans</h2>
+        <section id="plans" class="plans-section">
+        <div class="plan">
+            <h3>Free Plan</h3>
+            <p>Access basic features with limited gift suggestions.</p>
+            <button class="upgrade">Sign Up</button>
+        </div>
+        <div class="plan">
+            <h3>Premium Plan</h3>
+            <p>Unlock premium features such as budget range, get unlimited gift suggestions create up to 5 profiles.</p>
+            <button class="upgrade">Upgrade Now</button>
+        </div>
+        <div class="plan">
+            <h3>Ultimate Plan</h3>
+            <p>Get all the features Joey has to offer including history of previous gifts and unlimited number of profiles</p>
+            <button class="upgrade">Upgrade Now</button>
+        </div>
+    </section>
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or feedback, feel free to reach out to us!</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message..." required></textarea>
+                <input id="submit" class='submit'type="submit" value="Send Message">
+            </form>
+        </section>
+    </section>
+</main>
+    <footer>
+        <p>&copy; 2025 Joey The Gift Assistant. All rights reserved.</p>
+
+</body>
+</html>
